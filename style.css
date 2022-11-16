@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Limbu&display=swap');
+
+/* normalize */
+body, ol, ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #E5E5E5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* library */
+.container{
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* temporary */
+    /* height: 500px; */
+    /* background-color: beige; */
+}
+
+/* custom */
+.container > .top{
+    /* background-color: skyblue; */
+    width: 1196px;
+    height: 83px;
+}
+
+.container > .top > .logo{
+    /* background-color: yellow; */
+    display: inline;
+
+}
+.container > .top > .logo img{
+    width: 58px;
+    margin-top: 19px;
+    margin-bottom: 25px;
+}
+
+
+.container > .top > .menu-bar{
+    float: right;
+    /* background-color: blue; */
+    /* width: 794px;
+    height: 25px; */
+}
+.container > .top > .menu-bar li{
+    float:left;
+}
+
+.container > .top > .menu-bar a{
+    line-height: 5;
+    padding-right: 5;
+    margin-right: 57px;
+    /* background: pink; */
+    font-family: 'Noto Sans Limbu', sans-serif;
+}
+
+hr{
+    background-color: white;
+    height: 1px;
+    border: 0;
+}
+
+/* container1 ..flexbox ne fonctionne pas..*/
+.container > .container1{
+    width: 1196px;
+    height: 514px;
+    margin-top: 39px;
+    background-color: white;
+    display: flex;
+}
+
+.container > .container1 > .text{
+    margin-left: 58px;
+    margin: 196px 545px 232px 58px;
+    font-family: 'Noto Sans Limbu', sans-serif;
+
+}
+
+.container > .container1 > .text > p{
+    position: absolute;
+    width: 519px;
+    height: 75px;
+    left: 181px;
+    top: 435px;
+
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.container > .container1 > .text > h2 {
+    position: absolute;
+    width: 592px;
+    height: 86px;
+    left: 181px;
+    top: 337px;
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 43px;
+    
+    color: #CF3034;
+    
+
+}
+
+.container > .container1 > .image1{
+    position: absolute;
+    width: 578px;
+    height: 424px;
+    left: 740px;
+    top: 186px;
+    
+
+}
+.container > .container1 > .image2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 102px;
+    left: 182px;
+    top: 201px;
+}
+
+.container > .container1 > .button1, .button2{
+    position: absolute;
+    width: 193px;
+    height: 52px;
+    top: 559px;
+    outline: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container > .container1 > .button1{
+
+    left: 163px;
+    border-radius: 6px;
+    background-color: #CF3034;
+    border: 0;
+    color: white;
+}
+.container > .container1 > .button2{
+    left: 372px;
+    border: 1.5px solid #CF3034;
+    border-radius: 6px;    
+    color: #CF3034;
+    background-color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+/* container2 notre impact */
+.container > .notre_impact{
+    margin: 100px 0 50px 0;
+    font-weight: 700;
+    font-size: 38px;
+    font-family: 'Noto Sans Limbu', sans-serif;
+    
+
+}
+
+
+.container > .container2{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container > .container2 > div{
+    width: 197px;
+    height: 254px;
+    background-color: white;
+    justify-content:space-around;
+    margin-left: 10px;
+}
+
+/* 4 boxs */
+.container > .container2 > .box1 > h1 {
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 113.4%;
+    color: #CF3034;
+    text-align: center;
+    margin-top: 31px;
+}
+
+.container > .container2 > .box1 > p {
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 113.4%;
+    margin-top: 11px;
+    margin-left: 19px;
+}
+
+.container > .container2 > .box2 > h1 {
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 113.4%;
+    color: #CF3034;
+    margin-top: 31px;
+    margin-left: 19px;
+
+}
+
+.container > .container2 > .box2 > p {
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 113.4%;
+    margin-top: 11px;
+    margin-left: 19px;
+
+}
+.container > .container2 > .box3 > h1 {
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 113.4%;
+    color: #CF3034;
+    margin-top: 31px;
+    text-align: center;
+}
+
+.container > .container2 > .box3 > p {
+    font-family: 'Noto Sans Limbu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 113.4%;
+    margin-top: 11px;
+    margin-left: 19px;
+
+}
+
+.container > .container2 > .box4 {
+    background-color: #CF3034;
+    /* font-family: 'Noto Sans Limbu', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 113.4%;
+    margin-top: 11px;
+    margin-left: 19px; */
+
+}
+
+.container > .container2 > .box4 > p{
+    font-family: 'Noto Sans Limbu', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;    
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+
+
+
+
